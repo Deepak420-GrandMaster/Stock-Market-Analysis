@@ -13,8 +13,8 @@ We processed the data, normalized it, created rolling sequences of 30 days, and 
   - Loss curves across training epochs  
   - Actual vs Predicted next-day prices on real examples  
 
--Model Performance:
--MAE   : 69.56 points
+-**Model Performance:
+-**MAE   : 69.56 points
 -RMSE  : 96.57 points
 -R²    : 0.9687
 -MAPE  : 0.52%

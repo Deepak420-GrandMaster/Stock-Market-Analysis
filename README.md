@@ -14,3 +14,4 @@ We processed the data, normalized it, created rolling sequences of 30 days, and 
   - Actual vs Predicted next-day prices on real examples  
 
 
+<img width="567" height="455" alt="Nifty 200" src="https://github.com/user-attachments/assets/613cb4eb-6a28-4eec-b077-94a6b8f0da3b" />

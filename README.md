@@ -15,3 +15,5 @@ We processed the data, normalized it, created rolling sequences of 30 days, and 
 
 
 <img width="567" height="455" alt="Nifty 200" src="https://github.com/user-attachments/assets/613cb4eb-6a28-4eec-b077-94a6b8f0da3b" />
+<img width="1490" height="490" alt="Nifty200-1" src="https://github.com/user-attachments/assets/aebb199a-c8ec-488d-9d88-a7a53f5fff34" />
+

@@ -1,37 +1,21 @@
-# Stock Market Analysis Project
+# 📈 Stock Market Prediction using MLP
 
 ## Overview
-This project is designed to analyze stock market trends using Python. It includes data collection, processing, visualization, and predictive analysis to help users make informed financial decisions.
-Taken 1 year Indian Stock Market data to predict the Next Nifty 50 range. Done ML, used multiple relu factors to predict the Next Day Analysis.
+This project predicts the **next day’s Nifty closing price** using a **Multi-Layer Perceptron (MLP)** model trained on **1 year of Indian stock market data (Nifty200)**.  
+We processed the data, normalized it, created rolling sequences of 30 days, and trained a deep neural network to forecast the following day’s value.  
 
-## Features
-- **Data Collection**: Fetch historical stock data using APIs.
-- **Data Visualization**: Generate interactive charts to analyze trends.
-- **Predictive Analysis**: Implement machine learning models to forecast future prices.
-- **Performance Metrics**: Evaluate models with statistical methods.
+## 🔑 Features
+- **Preprocessing**: Cleans missing values and normalizes stock prices  
+- **Sequence Modeling**: Uses past 30 days to predict the next day  
+- **MLP Neural Network**: 4 hidden layers with ReLU activation  
+- **Evaluation Metrics**: MAE, RMSE, R², MAPE, Accuracy  
+- **Visualization**:
+  - Loss curves across training epochs  
+  - Actual vs Predicted next-day prices on real examples  
 
-## Installation
-To set up the project, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Stock_Market_Analysis.git
-   cd Stock_Market_Analysis
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-## Usage
-Run the Jupyter Notebook to perform the analysis:
+## ⚙️ Installation
+Clone the repo and install dependencies:
 ```bash
-jupyter notebook Stock_Market_Analysis_Project.ipynb
-```
-
-
-
-
-![download-1](https://github.com/user-attachments/assets/25357fd8-67a8-4f2e-85ad-1b505aa96bd3)
-
-![download-2](https://github.com/user-attachments/assets/12e2cc15-6de6-40e8-b6c1-d7ab0146b417)
+git clone https://github.com/your-username/Stock_Market_Analysis.git
+cd Stock_Market_Analysis
+pip install -r requirements.txt

@@ -13,12 +13,12 @@ We processed the data, normalized it, created rolling sequences of 30 days, and 
   - Loss curves across training epochs  
   - Actual vs Predicted next-day prices on real examples  
 
-Model Performance:
-MAE : 69.56 points
-RMSE : 96.57 points
-R² : 0.9687
-MAPE : 0.52%
-Accuracy ≈ 99.48%
+Model Performance:     
+MAE   : 69.56 points    
+RMSE  : 96.57 points    
+R²    : 0.9687    
+MAPE  : 0.52%    
+Accuracy ≈ 99.48%    
 
 
 <img width="567" height="455" alt="Nifty 200" src="https://github.com/user-attachments/assets/613cb4eb-6a28-4eec-b077-94a6b8f0da3b" />

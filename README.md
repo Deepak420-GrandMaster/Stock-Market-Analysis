@@ -13,9 +13,4 @@ We processed the data, normalized it, created rolling sequences of 30 days, and 
   - Loss curves across training epochs  
   - Actual vs Predicted next-day prices on real examples  
 
-## ⚙️ Installation
-Clone the repo and install dependencies:
-```bash
-git clone https://github.com/your-username/Stock_Market_Analysis.git
-cd Stock_Market_Analysis
 pip install -r requirements.txt
